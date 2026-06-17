@@ -25,7 +25,7 @@ DIVIDE(
     SUMX('public vw_amazon_dashboard', 'public vw_amazon_dashboard'[calificacion_estrellas] * 'public vw_amazon_dashboard'[total_resenas]),
     SUM('public vw_amazon_dashboard'[total_resenas]),
     0
-)
+) ```
 ## 📊 Insights & Impact
 * **Insight (Fraud Prevention):** Standard rating averages were misleading (e.g., items with a single 5-star review artificially outranking historical leaders). The developed **Weighted Rating** correctly repositioned high-volume items, optimizing catalogue trust.
 * **Insight (Category Dominance):** Smart Home and Gaming equipment accounted for more than 90% of total estimated revenues, proving clear market dominance over smaller categories.
